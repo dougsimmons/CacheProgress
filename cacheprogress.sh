@@ -1,9 +1,9 @@
 #!/bin/sh
 # CacheProgress by Doug Simmons 
-# I cleared my mod_pagespeed cache and was trying to gauge how long it would take to rebuild,
-# so I made this to help. Simple, but I'd like it to produce delta values, calculate rates 
-# and make time estimates, in python of course.
-# My first "bash" script, don't judge me. My website is https://hmm.nyc top score on ssllabs bro.
+# I cleared my ngx_pagespeed cache and was trying to gauge how long it would take to rebuild,
+# so I made this to help. Simple now, but I'd like it to produce delta values, calculate rates 
+# and make time estimates, in python of course, and less stupid-looking.
+# https://hmm.nyc top score on ssllabs! :)
 
 echo 'prev/now:'
 cat /tmp/date.txt                       # reads the timestamp you last ran CacheProgress        
